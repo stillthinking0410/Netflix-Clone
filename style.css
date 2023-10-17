@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: black;
+    color:white;
+    font-family:"Poppins",sans-serif;
+}
+
+.navbar{
+    position:absolute;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding : 2% 5%;
+    z-index:10;
+}
+
+.logo{
+    width:125px;
+    height:100%;
+}
+
+.navbar_nav_items{
+    display:flex;
+    gap:10px;
+}
+
+.netflix_logo{
+    width:150%;
+    height:150%;
+}
+
+.language_dropdown{
+    font-weight:bold;
+    background: transparent;
+    border:none;
+    color:white;
+}
+
+.dropdown_menu{
+    
+    border:1px solid white;
+    padding:0.4rem;
+    border-radius:4px;
+    background:rgba(0,0,0, 0.4)
+}
+
+.signin_button{
+    border:#dc030f;
+    background-color:#dc030f;
+    color:white;
+    padding: 0.25rem 0.5rem;
+    border-radius:4px;
+    height:35px;
+    width:100px;
+    font-weight: bold;
+}
+
+.hero_bg_image_container{
+    width:100%;
+    height:100%;
+}
+
+.hero_bg_image{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.hero_bg_overlay{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.hero_card{
+    position:absolute;
+    top:40%;
+    left:18%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.hero_title{
+    font-weight:600;
+    font-size:3rem;
+}
+
+.hero_subtitle{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.hero_description{
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.email{
+    font-size:medium;
+    width:450px;
+    height:60px;
+    color:rgb(255, 255, 255);
+    padding:0.25rem 0.5rem;
+    border-radius:6px;
+    border-color:rgb(150, 150, 150);
+    background:transparent;
+    background-color:rgba(0, 0, 0, 0.7)
+}
+
+.get_started{
+    font-size:x-large;
+    font-weight:500;
+    color:white;
+    width:170px;
+    height:60px;
+    background-color:#dc030f;
+    border:1px solid #dc030f;
+    border-radius:7px;
+}
+
+.card-1{
+    border-top: 80px rgb(69, 69, 69);
+    padding: 50px;
+}
+.card-2{
+    border-top: 80px rgb(69, 69, 69);
+    padding: 50px;
+}
+.card-3{
+    border-top: 80px rgb(69, 69, 69);
+    padding: 50px;
+}
+.card-1{
+    position: relative;
+    display:inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align:left;
+    align-items:center;
+    padding:25px 45px 50px;
+}
+
+.desc-1{
+    padding-left:80px;
+}
+
+.card-1 video{
+    position:relative;
+    left: 83px;
+    top: -10px;
+    width:100%;
+    height:54%;
+    grid-column:2/2;
+    grid-row:1/2;
+    z-index:-1;
+}
+
+.card-1 img{
+    grid-column:2/2;
+    grid-row:1/2;
+}
+
+.style_cards h1{
+    font-size: 3rem;
+    padding : 1rem;
+    padding-left:0;
+}
+
+.style_cards h3{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.card-2{
+    position: relative;
+    display:inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align:left;
+    align-items:center;
+    padding:25px 45px 50px;
+}
+
+.desc-2{
+    padding-left: 40%;
+}
+
+.card-3{
+    position: relative;
+    display:inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align:left;
+    align-items:center;
+    padding:25px 45px 50px;
+}
+
+.desc-3{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.card-3 img{
+    width:110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.card-3 video{
+    position: relative;
+    top:-80px;
+    left:103px;
+    width:65%;
+    height:78%;
+    grid-column:2/2;
+    grid-row:1/2;
+    z-index:-1;
+}
+.card-4{
+    position: relative;
+    display:inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align:left;
+    align-items:center;
+    padding:25px 45px 50px;
+}
+
+.desc-4{
+    padding-left: 40%;
+}
+
+.footer,
+.footer a{
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:50px;
+    color:#999;
+    font-size: 1rem;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:2rem;
+}
+
+.footer li{
+    line-height:1.9;
+}
